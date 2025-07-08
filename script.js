@@ -32,7 +32,7 @@ function move() {
     document.querySelector(".square").style.height = height + "px"
     document.querySelector(".square").style.width = width + "px"
 
-    // start = new Date().getTime();
+    start = new Date().getTime();
 }
 
 function generateRandomColor() {

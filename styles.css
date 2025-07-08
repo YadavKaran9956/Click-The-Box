@@ -1,0 +1,27 @@
+body {
+    background-color: aliceblue;
+}
+
+.mainHeadPara {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#game-wrapper {
+    .showInfo {
+        margin: 10px;
+        font-weight: bold;
+
+        .gameInfo1 {
+            display: none;
+        }
+    }
+
+    .square {
+        height: 300px;
+        width: 300px;
+        background-color: red;
+        cursor: pointer;
+        position: relative;
+    }
+}

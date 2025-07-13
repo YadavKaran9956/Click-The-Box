@@ -19,18 +19,17 @@ function move() {
     var left = Math.random() * 900;
     var right = Math.random() * 900;
     var top = Math.random() * 500;
-    var bottom = Math.random() * 500;
+    var bottom = Math.random() * 400;
 
-    var height = Math.random() * 300 + 20;
-    var width = Math.random() * 300 + 20;
+    var shape = Math.random() * 300 + 20;
 
     document.querySelector(".square").style.left = left + "px";
     document.querySelector(".square").style.right = right + "px";
     document.querySelector(".square").style.top = top + "px";
     document.querySelector(".square").style.bottom = bottom + "px";
 
-    document.querySelector(".square").style.height = height + "px"
-    document.querySelector(".square").style.width = width + "px"
+    document.querySelector(".square").style.height = shape + "px"
+    document.querySelector(".square").style.width = shape + "px"
 
     start = new Date().getTime();
 }
